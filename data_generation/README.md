@@ -7,3 +7,5 @@
 `./processing.ipynb` -- Data visualization and calculation of the velocity and pressure from the stored vorticity exploiting periodic boundary conditions.
 
 `./video.mp4` -- Vorticity dynamics for the generated data.
+
+All scripts in this folder are written in [Julia](https://julialang.org/). You can also download the data used for PINN training and validation [here](https://parfenyev.itp.ac.ru/data/2d-turb-PINN/) in HDF5 format.
