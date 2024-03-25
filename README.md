@@ -1,3 +1,9 @@
 # 2d-turb-PINN
 
-We live in the era, which is characterized by the development of algorithms that allow us to extract more and more information about physical systems from the collected data. Our research is motivated by hydrodynamic experiments and the desire to obtain more information from traditional PIV/PTV measurements of the velocity field. We present a technique that integrates measurement data with physical laws, expressed as partial differential equations, allowing for the simultaneous solution of super-resolution and inference problems. As an example, we consider a two-dimensional turbulent forced fluid flow and, using only sparse and probably noisy data for the velocity field, we reconstruct, the dense velocity and pressure fields in the observation region, infer the driving force, and determine the unknown fluid viscosity and bottom friction coefficient. The suggested technique demonstrates moderate robustness to noise in the measurement data and involves training a physics-informed neural network by minimizing the loss function, which penalizes deviations from the provided data and violations of the Navier-Stokes equation. The developed method extracts additional information from experimental and numerical observations, potentially enhancing the capabilities of PIV/PTV.
+## Content
+
+`./data_generation/` --- You can generate the data yourself or download it [here](https://parfenyev.itp.ac.ru/data/2d-turb-PINN/).
+
+`./PINN/PINN.ipynb` --- Main file for PINN training and validation.
+
+`./PINN/saved_models/` --- Collection of trained models.
