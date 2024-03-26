@@ -5,4 +5,4 @@ Our research is motivated by hydrodynamic experiments and the desire to obtain m
 For more information, please refer to the following:
 - link to arXiv
 
-You can generate the data yourself (see `./data_generation/`) or download it from [here](https://parfenyev.itp.ac.ru/data/2d-turb-PINN/). The folder `./PINN/saved_models/` contains already trained models. Don't forget to update the file paths in the scripts.
+You can generate the data for demonstration and training yourself (see `./data_generation/`) or download it from [here](https://parfenyev.itp.ac.ru/data/2d-turb-PINN/) in HDF5 format. The folder `./PINN/saved_models/` contains already trained models. Don't forget to update the file paths in the scripts.
